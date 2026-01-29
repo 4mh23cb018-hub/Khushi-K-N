@@ -1,15 +1,11 @@
-package day2;
-
 public class code2 {
-	public static void main(String[] args) {
-		int a=10;
-		int b=20;
-		int temp;
-		temp=a;
-		a=b;
-		b=temp;
-		System.out.println(a);
-		System.out.println(b);
-	}
-
+    public static void main(String[] args) {
+        int a;
+        a=10;
+        double b;
+        b=a;
+        System.out.println(a);
+        System.out.println(b);
+    }
+    
 }

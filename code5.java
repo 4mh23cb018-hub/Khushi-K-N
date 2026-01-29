@@ -1,9 +1,9 @@
-package day2;
-
 public class code5 {
-	public static void main(String[] args) {
-		int length=10;
-		int width= 5;
-		System.out.println(length*width);
-	}
+    public static void main(String[] args) {
+        int r=7;
+        double area=3.14*r*r;
+        System.out.println(area);
+
+    }
+
 }

@@ -1,9 +1,25 @@
-public class code9 {
+class Student{
+    int id;
+    String name;
+    int age;
+    Student(int a,String b,int c){
+        id = a;
+        name = b;
+        age = c;
+        System.out.println(id + name + age);
+}
+Student(int a,int b){
+    id=a;
+    age=b;
+       System.out.println(id + age);
+}
+ 
+}
+
+ public class code9 {
     public static void main(String[] args) {
-        int a=5;
-        System.out.println(++a);
-         System.out.println(a++);
-     
+        Student S1=new Student(1,"abc",20);
+        Student S2=new Student(2,30);
     }
     
 }

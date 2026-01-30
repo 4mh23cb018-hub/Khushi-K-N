@@ -1,11 +1,21 @@
-public class code8 {
-    public static void main(String[] args) {
-        int p=1000;
-        int r=40;
-        int t=4;
-
-        System.out.println((double)p*r*t/100);
-
+    class Student{
+        int id;
+        String name;
+        Student(int i,String name){
+            id=i;
+            this.name =name;
+        }
+        void display() {
+            System.out.println(id +"  "+ name);
+        }
     }
     
+public class code8 {
+    public static void main(String[] args) {
+        Student S1=new Student(1,"abc");
+        Student S2=new Student(2,"xyz");
+       
+        S1.display();
+        S2.display();
+    }
 }

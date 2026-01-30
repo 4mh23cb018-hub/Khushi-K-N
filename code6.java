@@ -1,9 +1,17 @@
 public class code6 {
+      public static double add(double x,double y){
+       
+       return x+y;
+    }
+    public static int add(int x,int y) {
+        
+        return x+y;
+    }
+
     public static void main(String[] args) {
-        int a=16;
-        if(a%2==0)
-            System.out.println("even");
-        else
-            System.out.println("odd");
+    double res= add (10,20);
+    int res1=add(40,20);
+System.out.println(res);
+System.err.println(res1);
     }
 }

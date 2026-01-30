@@ -1,8 +1,8 @@
 public class code3 {
-    public static void main(String[] args) {
-        double d = 9.78;
-        int i = (int) d;
-        System.out.println(i);
+    public static void print(){
+        System.out.println("alice");
     }
-    
+        public static void main(String[] args) {
+            print();
+        }
 }

@@ -1,9 +1,17 @@
-public class code1 {
-    public static void add(int x,int y) {
-        int ans=x+y;
-        System.out.println(ans);
+class Animal{
+    void Sound(){
+        System.out.println("ba");
     }
+}
+class Dog extends Animal{
+    void Bark(){
+System.out.println("dog");
+    }
+}
+class code1{
     public static void main(String[] args) {
-        add(20,30);
+        Dog dg=new Dog();
+        dg.Bark();
+        dg.Sound();
     }
 }

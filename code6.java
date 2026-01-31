@@ -1,17 +1,19 @@
-public class code6 {
-      public static double add(double x,double y){
-       
-       return x+y;
-    }
-    public static int add(int x,int y) {
-        
-        return x+y;
+
+class Animal{
+   void run(){
+            System.out.println("hello");
+        }
     }
 
-    public static void main(String[] args) {
-    double res= add (10,20);
-    int res1=add(40,20);
-System.out.println(res);
-System.err.println(res1);
+    class Dog extends Animal{
+      void Sound(){
+      super.run();
+            System.out.println("hi");
+        }
     }
-}
+ class code6 {
+    public static void main(String[] args) {
+        Dog dg=new Dog();
+        dg.Sound();
+    }
+ }
